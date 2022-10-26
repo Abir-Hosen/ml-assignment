@@ -1,0 +1,42 @@
+Open-source machine learning packages
+
+Some of top listed machine learning packages are
+
+1. Apache Mahout : It provides way to host machine learning project. It's mainly work with Apache project name spark. 
+3. Core ML Tools : This is a ML framework mekes ML avaiable for application programming interface. 
+4. Cortex
+5. Featuretools
+6. GoLearn
+7. Gradio
+8. H2O
+9. Oryx
+10. PyTorch Lightning
+11. Scikit-learn
+12. Shogun
+13. Spark MLlib
+14. Weka
+
+Why not we choose these packages
+
+1. Apache Mahout : It use domain specific language Scala & need good understanding on Spark, Yarn, JVM for good production ready project.
+3. Core ML Tools : It support limited number of Models.
+4. Cortex
+5. Featuretools
+6. GoLearn
+7. Gradio
+8. H2O
+9. Oryx
+10. PyTorch Lightning
+11. Scikit-learn
+12. Shogun
+13. Spark MLlib
+14. Weka
+
+
+Prepare datasets
+
+Classification models
+
+Estimate future performance
+
+Report analysis
