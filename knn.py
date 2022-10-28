@@ -10,7 +10,6 @@ encoded = encoder.fit_transform(cat)
 df["variety"] = encoded
 
 
-
 #create a dataframe with all training data except the target column
 X = df.drop(columns=["variety"])
 
