@@ -7,9 +7,9 @@ print(data.info())
 data = data.drop(axis=1, columns=["sample_id"])
 
 import matplotlib.pyplot as plt
-# data.hist(bins=50, figsize=(20,15))
-# plt.savefig('data-hist.png')
-# plt.show()
+data.hist(bins=50, figsize=(20,15))
+plt.savefig('data-hist.png')
+plt.show()
 
 print(data['variety'].value_counts())
 
@@ -22,8 +22,8 @@ data["variety"] = encoded
 from pandas.plotting import scatter_matrix
 attributes = ["length", "width", "thickness", "surface_area", "mass", "compactness", "hardness", "shell_top_radius", "water_content", "carbohydrate", "variety"]
 scatter_matrix(data[attributes], figsize=(20,15))
-# plt.savefig('data-correlation.png')
-# plt.show()
+plt.savefig('data-correlation.png')
+plt.show()
 
 corr_matrix = data.corr()
 print(corr_matrix['variety'].sort_values(ascending=False))
